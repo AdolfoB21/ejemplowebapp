@@ -1,0 +1,362 @@
+2020-12-16 18:15:21,413 INFO o.a.j.u.JMeterUtils: Setting Locale to en
+2020-12-16 18:15:21,433 INFO o.a.j.JMeter: Loading user properties from: /home/ubuntu/environment/apache-jmeter-5.4/bin/user.properties
+2020-12-16 18:15:21,435 INFO o.a.j.JMeter: Loading system properties from: /home/ubuntu/environment/apache-jmeter-5.4/bin/system.properties
+2020-12-16 18:15:21,436 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.output.format=xml
+2020-12-16 18:15:21,449 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-12-16 18:15:21,450 INFO o.a.j.JMeter: Version 5.4
+2020-12-16 18:15:21,451 INFO o.a.j.JMeter: java.version=1.8.0_275
+2020-12-16 18:15:21,452 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-12-16 18:15:21,453 INFO o.a.j.JMeter: os.name=Linux
+2020-12-16 18:15:21,454 INFO o.a.j.JMeter: os.arch=amd64
+2020-12-16 18:15:21,455 INFO o.a.j.JMeter: os.version=5.4.0-1032-aws
+2020-12-16 18:15:21,455 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-12-16 18:15:21,455 INFO o.a.j.JMeter: java.awt.headless=true
+2020-12-16 18:15:21,455 INFO o.a.j.JMeter: Max memory     =1832910848
+2020-12-16 18:15:21,455 INFO o.a.j.JMeter: Available Processors =2
+2020-12-16 18:15:21,461 INFO o.a.j.JMeter: Default Locale=English
+2020-12-16 18:15:21,461 INFO o.a.j.JMeter: JMeter  Locale=English
+2020-12-16 18:15:21,462 INFO o.a.j.JMeter: JMeterHome=/home/ubuntu/environment/apache-jmeter-5.4
+2020-12-16 18:15:21,462 INFO o.a.j.JMeter: user.dir  =/home/ubuntu/environment/miweb/src/test
+2020-12-16 18:15:21,462 INFO o.a.j.JMeter: PWD       =/home/ubuntu/environment/miweb/src/test
+2020-12-16 18:15:21,463 INFO o.a.j.JMeter: IP: 172.31.9.124 Name: ip-172-31-9-124 FullName: ip-172-31-9-124.eu-west-1.compute.internal
+2020-12-16 18:15:21,469 INFO o.a.j.s.FileServer: Default base='/home/ubuntu/environment/miweb/src/test'
+2020-12-16 18:15:21,471 INFO o.a.j.s.FileServer: Set new base='/home/ubuntu/environment/miweb/src/test'
+2020-12-16 18:15:21,623 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-12-16 18:15:21,647 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-12-16 18:15:21,653 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-12-16 18:15:21,662 INFO o.a.j.s.SaveService: Loading file: JMeterJenkins.jmx
+2020-12-16 18:15:21,713 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-12-16 18:15:21,716 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-12-16 18:15:21,717 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-12-16 18:15:21,718 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-12-16 18:15:21,720 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-12-16 18:15:21,721 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-12-16 18:15:21,762 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-12-16 18:15:21,774 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-12-16 18:15:21,776 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-12-16 18:15:21,778 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-12-16 18:15:21,785 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-12-16 18:15:21,787 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-12-16 18:15:22,233 INFO o.a.j.JMeter: Running test (1608142522233)
+2020-12-16 18:15:22,290 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Grupo de Hilos
+2020-12-16 18:15:22,290 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Grupo de Hilos.
+2020-12-16 18:15:22,290 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-12-16 18:15:22,290 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=1 delayedStart=false
+2020-12-16 18:15:22,298 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-1
+2020-12-16 18:15:22,322 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-4
+2020-12-16 18:15:22,324 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-3
+2020-12-16 18:15:22,325 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-2
+2020-12-16 18:15:22,332 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-5
+2020-12-16 18:15:22,333 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-172-31-9-124
+2020-12-16 18:15:22,344 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-12-16 18:15:22,345 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-6
+2020-12-16 18:15:22,351 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-12-16 18:15:22,351 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-12-16 18:15:22,351 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-12-16 18:15:22,351 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-12-16 18:15:22,355 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-7
+2020-12-16 18:15:22,367 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-8
+2020-12-16 18:15:22,382 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-10
+2020-12-16 18:15:22,384 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-9
+2020-12-16 18:15:22,392 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-11
+2020-12-16 18:15:22,401 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-12
+2020-12-16 18:15:22,413 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-13
+2020-12-16 18:15:22,423 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-14
+2020-12-16 18:15:22,435 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-15
+2020-12-16 18:15:22,442 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-16
+2020-12-16 18:15:22,452 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-17
+2020-12-16 18:15:22,463 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-18
+2020-12-16 18:15:22,481 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-19
+2020-12-16 18:15:22,498 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-21
+2020-12-16 18:15:22,503 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-22
+2020-12-16 18:15:22,506 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-20
+2020-12-16 18:15:22,515 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-23
+2020-12-16 18:15:22,523 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-24
+2020-12-16 18:15:22,543 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-26
+2020-12-16 18:15:22,553 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-12-16 18:15:22,553 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-12-16 18:15:22,567 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-28
+2020-12-16 18:15:22,567 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-27
+2020-12-16 18:15:22,575 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-29
+2020-12-16 18:15:22,581 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-30
+2020-12-16 18:15:22,593 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-31
+2020-12-16 18:15:22,596 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-25
+2020-12-16 18:15:22,601 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-32
+2020-12-16 18:15:22,610 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-33
+2020-12-16 18:15:22,621 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-34
+2020-12-16 18:15:22,638 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2020-12-16 18:15:22,642 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-36
+2020-12-16 18:15:22,644 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-35
+2020-12-16 18:15:22,654 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2020-12-16 18:15:22,657 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2020-12-16 18:15:22,661 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-37
+2020-12-16 18:15:22,671 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-38
+2020-12-16 18:15:22,671 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-39
+2020-12-16 18:15:22,681 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-40
+2020-12-16 18:15:22,693 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-41
+2020-12-16 18:15:22,702 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-42
+2020-12-16 18:15:22,711 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-43
+2020-12-16 18:15:22,721 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-44
+2020-12-16 18:15:22,731 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-45
+2020-12-16 18:15:22,740 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-46
+2020-12-16 18:15:22,751 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-47
+2020-12-16 18:15:22,762 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-48
+2020-12-16 18:15:22,781 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-49
+2020-12-16 18:15:22,785 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-50
+2020-12-16 18:15:22,796 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-51
+2020-12-16 18:15:22,806 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-52
+2020-12-16 18:15:22,814 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-53
+2020-12-16 18:15:22,830 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2020-12-16 18:15:22,834 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-54
+2020-12-16 18:15:22,838 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-55
+2020-12-16 18:15:22,841 INFO o.a.j.u.SSLManager: KeyStore created OK
+2020-12-16 18:15:22,842 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2020-12-16 18:15:22,845 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-56
+2020-12-16 18:15:22,854 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-57
+2020-12-16 18:15:22,876 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-59
+2020-12-16 18:15:22,881 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-58
+2020-12-16 18:15:22,894 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-60
+2020-12-16 18:15:22,902 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-62
+2020-12-16 18:15:22,903 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-61
+2020-12-16 18:15:22,911 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-63
+2020-12-16 18:15:22,927 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-64
+2020-12-16 18:15:22,932 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-65
+2020-12-16 18:15:22,942 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-66
+2020-12-16 18:15:22,951 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-67
+2020-12-16 18:15:22,961 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-68
+2020-12-16 18:15:22,981 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-69
+2020-12-16 18:15:22,983 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-70
+2020-12-16 18:15:22,991 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-71
+2020-12-16 18:15:23,001 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-72
+2020-12-16 18:15:23,033 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-74
+2020-12-16 18:15:23,034 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-75
+2020-12-16 18:15:23,037 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-73
+2020-12-16 18:15:23,041 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-76
+2020-12-16 18:15:23,051 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-77
+2020-12-16 18:15:23,065 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-78
+2020-12-16 18:15:23,075 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-79
+2020-12-16 18:15:23,083 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-80
+2020-12-16 18:15:23,100 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-81
+2020-12-16 18:15:23,103 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-82
+2020-12-16 18:15:23,110 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-83
+2020-12-16 18:15:23,121 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-84
+2020-12-16 18:15:23,132 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-85
+2020-12-16 18:15:23,141 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-86
+2020-12-16 18:15:23,151 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-87
+2020-12-16 18:15:23,161 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-88
+2020-12-16 18:15:23,171 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-89
+2020-12-16 18:15:23,181 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-90
+2020-12-16 18:15:23,191 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-91
+2020-12-16 18:15:23,201 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-92
+2020-12-16 18:15:23,211 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-93
+2020-12-16 18:15:23,221 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-94
+2020-12-16 18:15:23,230 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-95
+2020-12-16 18:15:23,247 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-96
+2020-12-16 18:15:23,258 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-97
+2020-12-16 18:15:23,266 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-98
+2020-12-16 18:15:23,278 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-99
+2020-12-16 18:15:23,287 INFO o.a.j.t.JMeterThread: Thread started: Grupo de Hilos 1-100
+2020-12-16 18:15:30,045 INFO o.a.j.r.Summariser: summary +    124 in 00:00:08 =   15.9/s Avg:  4197 Min:   573 Max:  5448 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2020-12-16 18:15:32,353 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-22
+2020-12-16 18:15:32,353 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-22
+2020-12-16 18:15:32,747 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-41
+2020-12-16 18:15:32,955 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-41
+2020-12-16 18:15:32,691 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-91
+2020-12-16 18:15:32,960 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-91
+2020-12-16 18:15:32,984 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-4
+2020-12-16 18:15:32,984 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-4
+2020-12-16 18:15:32,858 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-92
+2020-12-16 18:15:33,298 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-92
+2020-12-16 18:15:33,106 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-65
+2020-12-16 18:15:33,299 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-65
+2020-12-16 18:15:33,064 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-6
+2020-12-16 18:15:33,303 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-6
+2020-12-16 18:15:33,304 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-34
+2020-12-16 18:15:33,304 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-34
+2020-12-16 18:15:33,326 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-15
+2020-12-16 18:15:33,326 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-15
+2020-12-16 18:15:33,363 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-52
+2020-12-16 18:15:33,363 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-52
+2020-12-16 18:15:33,379 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-54
+2020-12-16 18:15:33,380 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-54
+2020-12-16 18:15:33,386 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-40
+2020-12-16 18:15:33,386 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-40
+2020-12-16 18:15:33,417 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-7
+2020-12-16 18:15:33,417 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-7
+2020-12-16 18:15:33,475 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-60
+2020-12-16 18:15:33,475 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-60
+2020-12-16 18:15:33,476 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-61
+2020-12-16 18:15:33,476 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-61
+2020-12-16 18:15:33,115 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-83
+2020-12-16 18:15:33,487 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-83
+2020-12-16 18:15:33,490 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-74
+2020-12-16 18:15:33,490 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-74
+2020-12-16 18:15:33,503 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-51
+2020-12-16 18:15:33,503 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-51
+2020-12-16 18:15:33,506 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-33
+2020-12-16 18:15:33,506 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-33
+2020-12-16 18:15:33,524 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-5
+2020-12-16 18:15:33,524 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-5
+2020-12-16 18:15:33,529 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-42
+2020-12-16 18:15:33,530 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-42
+2020-12-16 18:15:33,533 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-14
+2020-12-16 18:15:33,533 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-14
+2020-12-16 18:15:33,540 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-100
+2020-12-16 18:15:33,540 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-100
+2020-12-16 18:15:33,544 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-63
+2020-12-16 18:15:33,544 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-63
+2020-12-16 18:15:33,546 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-50
+2020-12-16 18:15:33,546 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-50
+2020-12-16 18:15:33,557 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-82
+2020-12-16 18:15:33,557 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-82
+2020-12-16 18:15:33,562 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-48
+2020-12-16 18:15:33,562 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-48
+2020-12-16 18:15:33,569 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-32
+2020-12-16 18:15:33,569 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-32
+2020-12-16 18:15:33,570 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-19
+2020-12-16 18:15:33,570 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-19
+2020-12-16 18:15:33,570 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-49
+2020-12-16 18:15:33,570 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-49
+2020-12-16 18:15:33,572 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-72
+2020-12-16 18:15:33,572 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-72
+2020-12-16 18:15:33,585 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-37
+2020-12-16 18:15:33,585 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-37
+2020-12-16 18:15:33,598 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-98
+2020-12-16 18:15:33,660 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-98
+2020-12-16 18:15:33,575 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-38
+2020-12-16 18:15:33,777 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-38
+2020-12-16 18:15:33,778 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-66
+2020-12-16 18:15:33,778 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-66
+2020-12-16 18:15:33,780 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-76
+2020-12-16 18:15:33,780 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-69
+2020-12-16 18:15:33,780 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-78
+2020-12-16 18:15:33,780 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-78
+2020-12-16 18:15:33,781 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-11
+2020-12-16 18:15:33,781 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-11
+2020-12-16 18:15:33,781 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-55
+2020-12-16 18:15:33,781 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-55
+2020-12-16 18:15:33,782 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-29
+2020-12-16 18:15:33,782 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-64
+2020-12-16 18:15:33,782 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-29
+2020-12-16 18:15:33,782 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-57
+2020-12-16 18:15:33,782 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-57
+2020-12-16 18:15:33,783 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-69
+2020-12-16 18:15:33,783 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-64
+2020-12-16 18:15:33,781 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-97
+2020-12-16 18:15:33,784 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-97
+2020-12-16 18:15:33,784 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-99
+2020-12-16 18:15:33,784 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-99
+2020-12-16 18:15:33,784 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-24
+2020-12-16 18:15:33,784 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-24
+2020-12-16 18:15:33,785 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-10
+2020-12-16 18:15:33,785 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-3
+2020-12-16 18:15:33,785 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-10
+2020-12-16 18:15:33,785 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-76
+2020-12-16 18:15:33,786 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-3
+2020-12-16 18:15:33,787 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-67
+2020-12-16 18:15:33,787 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-67
+2020-12-16 18:15:33,787 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-93
+2020-12-16 18:15:33,788 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-93
+2020-12-16 18:15:33,788 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-73
+2020-12-16 18:15:33,788 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-73
+2020-12-16 18:15:33,789 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-9
+2020-12-16 18:15:33,789 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-9
+2020-12-16 18:15:33,790 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-21
+2020-12-16 18:15:33,790 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-21
+2020-12-16 18:15:33,790 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-71
+2020-12-16 18:15:33,790 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-71
+2020-12-16 18:15:33,791 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-8
+2020-12-16 18:15:33,791 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-8
+2020-12-16 18:15:33,791 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-39
+2020-12-16 18:15:33,791 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-39
+2020-12-16 18:15:33,792 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-58
+2020-12-16 18:15:33,792 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-20
+2020-12-16 18:15:33,792 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-58
+2020-12-16 18:15:33,792 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-94
+2020-12-16 18:15:33,792 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-94
+2020-12-16 18:15:33,793 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-96
+2020-12-16 18:15:33,793 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-96
+2020-12-16 18:15:33,793 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-43
+2020-12-16 18:15:33,793 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-43
+2020-12-16 18:15:33,794 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-46
+2020-12-16 18:15:33,794 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-12
+2020-12-16 18:15:33,794 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-46
+2020-12-16 18:15:33,794 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-12
+2020-12-16 18:15:33,794 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-47
+2020-12-16 18:15:33,794 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-30
+2020-12-16 18:15:33,794 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-47
+2020-12-16 18:15:33,794 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-20
+2020-12-16 18:15:33,795 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-17
+2020-12-16 18:15:33,795 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-30
+2020-12-16 18:15:33,795 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-88
+2020-12-16 18:15:33,795 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-88
+2020-12-16 18:15:33,795 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-45
+2020-12-16 18:15:33,795 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-45
+2020-12-16 18:15:33,795 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-17
+2020-12-16 18:15:33,796 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-62
+2020-12-16 18:15:33,796 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-62
+2020-12-16 18:15:33,796 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-36
+2020-12-16 18:15:33,797 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-36
+2020-12-16 18:15:33,797 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-84
+2020-12-16 18:15:33,797 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-84
+2020-12-16 18:15:33,798 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-26
+2020-12-16 18:15:33,798 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-68
+2020-12-16 18:15:33,798 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-26
+2020-12-16 18:15:33,798 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-68
+2020-12-16 18:15:33,798 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-85
+2020-12-16 18:15:33,798 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-85
+2020-12-16 18:15:33,799 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-95
+2020-12-16 18:15:33,799 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-2
+2020-12-16 18:15:33,799 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-95
+2020-12-16 18:15:33,799 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-23
+2020-12-16 18:15:33,799 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-81
+2020-12-16 18:15:33,799 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-23
+2020-12-16 18:15:33,799 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-2
+2020-12-16 18:15:33,800 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-77
+2020-12-16 18:15:33,800 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-81
+2020-12-16 18:15:33,800 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-77
+2020-12-16 18:15:33,800 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-90
+2020-12-16 18:15:33,801 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-90
+2020-12-16 18:15:33,801 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-18
+2020-12-16 18:15:33,801 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-18
+2020-12-16 18:15:33,802 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-56
+2020-12-16 18:15:33,802 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-56
+2020-12-16 18:15:33,802 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-89
+2020-12-16 18:15:33,802 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-89
+2020-12-16 18:15:33,803 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-53
+2020-12-16 18:15:33,803 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-53
+2020-12-16 18:15:33,803 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-44
+2020-12-16 18:15:33,804 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-27
+2020-12-16 18:15:33,804 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-44
+2020-12-16 18:15:33,804 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-75
+2020-12-16 18:15:33,804 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-75
+2020-12-16 18:15:33,804 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-1
+2020-12-16 18:15:33,804 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-1
+2020-12-16 18:15:33,804 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-79
+2020-12-16 18:15:33,804 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-79
+2020-12-16 18:15:33,805 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-13
+2020-12-16 18:15:33,805 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-13
+2020-12-16 18:15:33,805 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-31
+2020-12-16 18:15:33,805 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-86
+2020-12-16 18:15:33,806 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-31
+2020-12-16 18:15:33,806 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-86
+2020-12-16 18:15:33,806 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-25
+2020-12-16 18:15:33,806 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-25
+2020-12-16 18:15:33,806 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-70
+2020-12-16 18:15:33,806 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-70
+2020-12-16 18:15:33,807 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-35
+2020-12-16 18:15:33,807 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-35
+2020-12-16 18:15:33,807 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-80
+2020-12-16 18:15:33,807 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-80
+2020-12-16 18:15:33,803 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-59
+2020-12-16 18:15:33,808 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-59
+2020-12-16 18:15:33,804 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-27
+2020-12-16 18:15:33,802 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-87
+2020-12-16 18:15:33,807 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-28
+2020-12-16 18:15:33,809 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-28
+2020-12-16 18:15:33,809 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-87
+2020-12-16 18:15:33,806 INFO o.a.j.t.JMeterThread: Thread is done: Grupo de Hilos 1-16
+2020-12-16 18:15:33,809 INFO o.a.j.t.JMeterThread: Thread finished: Grupo de Hilos 1-16
+2020-12-16 18:15:33,810 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-12-16 18:15:33,811 INFO o.a.j.r.Summariser: summary +    276 in 00:00:04 =   73.3/s Avg:  1497 Min:   922 Max:  2483 Err:     0 (0.00%) Active: 0 Started: 100 Finished: 100
+2020-12-16 18:15:33,811 INFO o.a.j.r.Summariser: summary =    400 in 00:00:12 =   34.5/s Avg:  2334 Min:   573 Max:  5448 Err:     0 (0.00%)
